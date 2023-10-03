@@ -210,3 +210,455 @@ X===============X]
 [2023-10-03 00:13:34,930: INFO: main: >>>>>>> stage Data Validation completed <<<<<<<
 
 X===============X]
+[2023-10-03 00:28:06,654: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:28:06,657: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:28:06,659: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:28:06,661: INFO: common: created directory at: artifacts]
+[2023-10-03 00:28:06,661: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 00:37:29,993: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:37:29,994: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:37:29,996: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:37:29,996: INFO: common: created directory at: artifacts]
+[2023-10-03 00:37:29,997: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 00:37:40,861: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:37:40,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:37:40,865: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:37:40,866: INFO: common: created directory at: artifacts]
+[2023-10-03 00:37:40,867: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 00:42:46,789: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:42:46,793: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:42:46,795: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:42:46,796: INFO: common: created directory at: artifacts]
+[2023-10-03 00:42:46,796: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 00:42:46,797: INFO: 1751814513: Starting Data Transformation Process...]
+[2023-10-03 00:42:46,841: INFO: 1751814513: Handling Null Values...]
+[2023-10-03 00:42:46,843: INFO: 1751814513: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 00:42:46,852: INFO: 1751814513: Handling Outliers in Column: hsc_p]
+[2023-10-03 00:42:46,858: INFO: 1751814513: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 00:42:46,860: INFO: 1751814513: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 00:42:46,867: INFO: 1751814513: Splitting Data with Test Size: 0.25]
+[2023-10-03 00:42:46,879: INFO: 1751814513: Data has been split and saved.]
+[2023-10-03 00:42:46,880: INFO: 1751814513: Data Transformation Process Completed.]
+[2023-10-03 00:47:39,446: INFO: main: >>>>>>> stage Data Ingestion started <<<<<<<]
+[2023-10-03 00:47:39,448: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:47:39,448: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:47:39,449: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:47:39,450: INFO: common: created directory at: artifacts]
+[2023-10-03 00:47:39,450: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-03 00:47:40,465: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 4471
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "8dc25a77f155161e6322ab3456a9a6a85d2da68191ed0bb9d680e1024748fc7c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0D68:103F:2C25CA:35DBD0:651BBEF8
+Accept-Ranges: bytes
+Date: Tue, 03 Oct 2023 07:47:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx12426-PHX
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1696319260.370256,VS0,VE116
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d7be400027966320c17429b57e41dc397da1606d
+Expires: Tue, 03 Oct 2023 07:52:40 GMT
+Source-Age: 0
+
+]
+[2023-10-03 00:47:40,469: INFO: main: >>>>>>> stage Data Ingestion completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:47:40,469: INFO: main: >>>>>>> stage Data Validation started <<<<<<<]
+[2023-10-03 00:47:40,473: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:47:40,474: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:47:40,476: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:47:40,477: INFO: common: created directory at: artifacts]
+[2023-10-03 00:47:40,477: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-03 00:47:40,486: INFO: main: >>>>>>> stage Data Validation completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:47:40,486: INFO: main: >>>>>>> stage Data Transformation started <<<<<<<]
+[2023-10-03 00:47:40,489: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:47:40,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:47:40,492: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:47:40,492: INFO: common: created directory at: artifacts]
+[2023-10-03 00:47:40,492: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 00:47:40,492: INFO: main: >>>>>>> stage Data Transformation completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:49:26,084: INFO: main: >>>>>>> stage Data Ingestion started <<<<<<<]
+[2023-10-03 00:49:26,086: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:49:26,086: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:49:26,088: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:49:26,088: INFO: common: created directory at: artifacts]
+[2023-10-03 00:49:26,088: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-03 00:49:26,637: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 4471
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "8dc25a77f155161e6322ab3456a9a6a85d2da68191ed0bb9d680e1024748fc7c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0D68:103F:2C25CA:35DBD0:651BBEF8
+Accept-Ranges: bytes
+Date: Tue, 03 Oct 2023 07:49:26 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx12432-PHX
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1696319367.664194,VS0,VE0
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5430b0896444ff258728900cca5f1235c1cdf1e2
+Expires: Tue, 03 Oct 2023 07:54:26 GMT
+Source-Age: 106
+
+]
+[2023-10-03 00:49:26,639: INFO: main: >>>>>>> stage Data Ingestion completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:49:26,639: INFO: main: >>>>>>> stage Data Validation started <<<<<<<]
+[2023-10-03 00:49:26,642: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:49:26,642: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:49:26,644: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:49:26,644: INFO: common: created directory at: artifacts]
+[2023-10-03 00:49:26,644: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-03 00:49:26,651: INFO: main: >>>>>>> stage Data Validation completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:49:26,651: INFO: main: >>>>>>> stage Data Transformation started <<<<<<<]
+[2023-10-03 00:49:26,653: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:49:26,654: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:49:26,655: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:49:26,655: INFO: common: created directory at: artifacts]
+[2023-10-03 00:49:26,655: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 00:49:26,656: INFO: main: >>>>>>> stage Data Transformation completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:52:20,614: INFO: main: >>>>>>> stage Data Ingestion started <<<<<<<]
+[2023-10-03 00:52:20,616: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:52:20,616: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:52:20,617: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:52:20,618: INFO: common: created directory at: artifacts]
+[2023-10-03 00:52:20,618: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-03 00:52:21,193: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 4471
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "8dc25a77f155161e6322ab3456a9a6a85d2da68191ed0bb9d680e1024748fc7c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0D68:103F:2C25CA:35DBD0:651BBEF8
+Accept-Ranges: bytes
+Date: Tue, 03 Oct 2023 07:52:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx12431-PHX
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1696319541.215328,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: db2c2a6a0a320a6959728d21e315a7014f0d776f
+Expires: Tue, 03 Oct 2023 07:57:21 GMT
+Source-Age: 281
+
+]
+[2023-10-03 00:52:21,194: INFO: main: >>>>>>> stage Data Ingestion completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:52:21,195: INFO: main: >>>>>>> stage Data Validation started <<<<<<<]
+[2023-10-03 00:52:21,197: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:52:21,198: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:52:21,199: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:52:21,199: INFO: common: created directory at: artifacts]
+[2023-10-03 00:52:21,199: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-03 00:52:21,206: INFO: main: >>>>>>> stage Data Validation completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:52:21,206: INFO: main: >>>>>>> stage Data Transformation started <<<<<<<]
+[2023-10-03 00:52:21,208: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:52:21,209: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:52:21,210: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:52:21,210: INFO: common: created directory at: artifacts]
+[2023-10-03 00:52:21,210: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 00:52:21,210: INFO: data_transformation: Starting Data Transformation Process...]
+[2023-10-03 00:52:21,213: INFO: data_transformation: Handling Null Values...]
+[2023-10-03 00:52:21,214: INFO: data_transformation: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 00:52:21,219: INFO: data_transformation: Handling Outliers in Column: hsc_p]
+[2023-10-03 00:52:21,221: INFO: data_transformation: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 00:52:21,222: INFO: data_transformation: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 00:52:21,228: INFO: data_transformation: Splitting Data with Test Size: 0.25]
+[2023-10-03 00:52:21,234: INFO: data_transformation: Data has been split and saved.]
+[2023-10-03 00:52:21,234: INFO: data_transformation: Data Transformation Process Completed.]
+[2023-10-03 00:52:21,234: INFO: main: >>>>>>> stage Data Transformation completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:58:00,760: INFO: main: >>>>>>> stage Data Ingestion started <<<<<<<]
+[2023-10-03 00:58:00,762: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:58:00,762: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:58:00,763: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:58:00,764: INFO: common: created directory at: artifacts]
+[2023-10-03 00:58:00,764: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-03 00:58:01,689: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 4471
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "8dc25a77f155161e6322ab3456a9a6a85d2da68191ed0bb9d680e1024748fc7c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0D68:103F:2C25CA:35DBD0:651BBEF8
+Accept-Ranges: bytes
+Date: Tue, 03 Oct 2023 07:58:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx12426-PHX
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1696319882.586485,VS0,VE119
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 55b6ef312f97a976aacaa96fea443a2f42f5cba5
+Expires: Tue, 03 Oct 2023 08:03:01 GMT
+Source-Age: 0
+
+]
+[2023-10-03 00:58:01,691: INFO: main: >>>>>>> stage Data Ingestion completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:58:01,692: INFO: main: >>>>>>> stage Data Validation started <<<<<<<]
+[2023-10-03 00:58:01,695: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:58:01,696: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:58:01,698: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:58:01,698: INFO: common: created directory at: artifacts]
+[2023-10-03 00:58:01,699: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-03 00:58:01,708: INFO: main: >>>>>>> stage Data Validation completed <<<<<<<
+
+X===============X]
+[2023-10-03 00:58:01,709: INFO: main: >>>>>>> stage Data Transformation started <<<<<<<]
+[2023-10-03 00:58:01,711: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 00:58:01,712: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 00:58:01,714: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 00:58:01,714: INFO: common: created directory at: artifacts]
+[2023-10-03 00:58:01,714: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 00:58:01,714: INFO: data_transformation: Starting Data Transformation Process...]
+[2023-10-03 00:58:01,717: INFO: data_transformation: Handling Null Values...]
+[2023-10-03 00:58:01,718: INFO: data_transformation: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 00:58:01,723: INFO: data_transformation: Handling Outliers in Column: hsc_p]
+[2023-10-03 00:58:01,725: INFO: data_transformation: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 00:58:01,727: INFO: data_transformation: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 00:58:01,734: INFO: data_transformation: Splitting Data with Test Size: 0.25]
+[2023-10-03 00:58:01,739: INFO: data_transformation: Data has been split and saved.]
+[2023-10-03 00:58:01,740: INFO: data_transformation: Data Transformation Process Completed.]
+[2023-10-03 00:58:01,740: INFO: main: >>>>>>> stage Data Transformation completed <<<<<<<
+
+X===============X]
+[2023-10-03 01:00:03,558: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:00:03,559: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:00:03,561: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:00:03,562: INFO: common: created directory at: artifacts]
+[2023-10-03 01:00:03,563: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 01:00:03,563: INFO: 3542105556: Starting Data Transformation Process...]
+[2023-10-03 01:00:03,569: INFO: 3542105556: Handling Null Values...]
+[2023-10-03 01:00:03,570: INFO: 3542105556: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 01:00:03,572: INFO: 3542105556: Handling Outliers in Column: hsc_p]
+[2023-10-03 01:00:03,574: INFO: 3542105556: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 01:00:03,576: INFO: 3542105556: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 01:02:58,249: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:02:58,251: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:02:58,253: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:02:58,253: INFO: common: created directory at: artifacts]
+[2023-10-03 01:02:58,254: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 01:02:58,254: INFO: 3861718031: Starting Data Transformation Process...]
+[2023-10-03 01:02:58,272: INFO: 3861718031: Handling Null Values...]
+[2023-10-03 01:02:58,274: INFO: 3861718031: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 01:02:58,277: INFO: 3861718031: Handling Outliers in Column: hsc_p]
+[2023-10-03 01:02:58,284: INFO: 3861718031: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 01:02:58,299: INFO: 3861718031: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 01:02:58,319: INFO: 3861718031: Splitting Data with Test Size: 0.25]
+[2023-10-03 01:02:58,335: INFO: 3861718031: Data has been split and saved.]
+[2023-10-03 01:02:58,336: INFO: 3861718031: Data Transformation Process Completed.]
+[2023-10-03 01:03:41,529: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:03:41,531: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:03:41,534: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:03:41,535: INFO: common: created directory at: artifacts]
+[2023-10-03 01:03:41,535: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 01:03:41,536: INFO: 230073419: Starting Data Transformation Process...]
+[2023-10-03 01:03:41,542: INFO: 230073419: Handling Null Values...]
+[2023-10-03 01:03:41,544: INFO: 230073419: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 01:03:41,547: INFO: 230073419: Handling Outliers in Column: hsc_p]
+[2023-10-03 01:03:41,552: INFO: 230073419: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 01:03:41,554: INFO: 230073419: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 01:03:41,559: INFO: 230073419: Splitting Data with Test Size: 0.25]
+[2023-10-03 01:03:41,568: INFO: 230073419: Data has been split and saved.]
+[2023-10-03 01:03:41,569: INFO: 230073419: Data Transformation Process Completed.]
+[2023-10-03 01:05:12,469: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:05:12,477: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:05:12,482: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:05:12,483: INFO: common: created directory at: artifacts]
+[2023-10-03 01:05:12,484: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 01:05:12,485: INFO: 3753699683: Starting Data Transformation Process...]
+[2023-10-03 01:05:12,494: INFO: 3753699683: Handling Null Values...]
+[2023-10-03 01:05:12,497: INFO: 3753699683: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 01:05:12,500: INFO: 3753699683: Handling Outliers in Column: hsc_p]
+[2023-10-03 01:05:12,507: INFO: 3753699683: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 01:05:12,510: INFO: 3753699683: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 01:05:37,098: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:05:37,100: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:05:37,104: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:05:37,115: INFO: common: created directory at: artifacts]
+[2023-10-03 01:05:37,123: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 01:05:37,127: INFO: 1094185624: Starting Data Transformation Process...]
+[2023-10-03 01:05:37,141: INFO: 1094185624: Handling Null Values...]
+[2023-10-03 01:05:37,148: INFO: 1094185624: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 01:05:37,150: INFO: 1094185624: Handling Outliers in Column: hsc_p]
+[2023-10-03 01:05:37,162: INFO: 1094185624: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 01:05:37,169: INFO: 1094185624: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 01:05:37,174: INFO: 1094185624: Splitting Data with Test Size: 0.25]
+[2023-10-03 01:05:37,186: INFO: 1094185624: Data has been split and saved.]
+[2023-10-03 01:05:37,187: INFO: 1094185624: Data Transformation Process Completed.]
+[2023-10-03 01:06:02,338: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:06:02,340: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:06:02,343: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:06:02,345: INFO: common: created directory at: artifacts]
+[2023-10-03 01:06:02,347: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 01:06:02,348: INFO: 3753699683: Starting Data Transformation Process...]
+[2023-10-03 01:06:02,358: INFO: 3753699683: Handling Null Values...]
+[2023-10-03 01:06:02,360: INFO: 3753699683: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 01:06:02,362: INFO: 3753699683: Handling Outliers in Column: hsc_p]
+[2023-10-03 01:06:02,365: INFO: 3753699683: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 01:06:02,367: INFO: 3753699683: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 01:07:39,246: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:07:39,252: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:07:39,256: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:07:39,257: INFO: common: created directory at: artifacts]
+[2023-10-03 01:07:39,258: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 01:07:39,258: INFO: 537558814: Starting Data Transformation Process...]
+[2023-10-03 01:07:39,290: INFO: 537558814: Handling Null Values...]
+[2023-10-03 01:07:39,293: INFO: 537558814: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 01:07:39,300: INFO: 537558814: Handling Outliers in Column: hsc_p]
+[2023-10-03 01:07:39,308: INFO: 537558814: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 01:07:39,313: INFO: 537558814: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 01:07:39,325: INFO: 537558814: Splitting Data with Test Size: 0.25]
+[2023-10-03 01:07:39,342: INFO: 537558814: Data has been split and saved.]
+[2023-10-03 01:07:39,343: INFO: 537558814: Data Transformation Process Completed.]
+[2023-10-03 01:08:32,358: INFO: main: >>>>>>> stage Data Ingestion started <<<<<<<]
+[2023-10-03 01:08:32,360: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:08:32,360: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:08:32,361: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:08:32,362: INFO: common: created directory at: artifacts]
+[2023-10-03 01:08:32,362: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-03 01:08:33,108: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 4471
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "8dc25a77f155161e6322ab3456a9a6a85d2da68191ed0bb9d680e1024748fc7c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0D68:103F:2C25CA:35DBD0:651BBEF8
+Accept-Ranges: bytes
+Date: Tue, 03 Oct 2023 08:08:33 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx12430-PHX
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1696320513.990028,VS0,VE120
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2378fbdb3ddafa982d75527e80185cc2090b9621
+Expires: Tue, 03 Oct 2023 08:13:33 GMT
+Source-Age: 0
+
+]
+[2023-10-03 01:08:33,110: INFO: main: >>>>>>> stage Data Ingestion completed <<<<<<<
+
+X===============X]
+[2023-10-03 01:08:33,110: INFO: main: >>>>>>> stage Data Validation started <<<<<<<]
+[2023-10-03 01:08:33,112: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:08:33,113: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:08:33,114: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:08:33,114: INFO: common: created directory at: artifacts]
+[2023-10-03 01:08:33,115: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-03 01:08:33,122: INFO: main: >>>>>>> stage Data Validation completed <<<<<<<
+
+X===============X]
+[2023-10-03 01:08:33,122: INFO: main: >>>>>>> stage Data Transformation started <<<<<<<]
+[2023-10-03 01:08:33,124: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:08:33,125: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:08:33,126: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:08:33,126: INFO: common: created directory at: artifacts]
+[2023-10-03 01:08:33,126: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 01:08:33,126: INFO: data_transformation: Starting Data Transformation Process...]
+[2023-10-03 01:08:33,128: INFO: data_transformation: Handling Null Values...]
+[2023-10-03 01:08:33,129: INFO: data_transformation: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 01:08:33,130: INFO: data_transformation: Handling Outliers in Column: hsc_p]
+[2023-10-03 01:08:33,131: INFO: data_transformation: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 01:08:33,132: INFO: data_transformation: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 01:08:33,136: INFO: data_transformation: Splitting Data with Test Size: 0.25]
+[2023-10-03 01:08:33,139: INFO: data_transformation: Data has been split and saved.]
+[2023-10-03 01:08:33,139: INFO: data_transformation: Data Transformation Process Completed.]
+[2023-10-03 01:08:33,139: INFO: main: >>>>>>> stage Data Transformation completed <<<<<<<
+
+X===============X]
+[2023-10-03 01:08:42,574: INFO: main: >>>>>>> stage Data Ingestion started <<<<<<<]
+[2023-10-03 01:08:42,576: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:08:42,577: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:08:42,578: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:08:42,578: INFO: common: created directory at: artifacts]
+[2023-10-03 01:08:42,578: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-03 01:08:42,578: INFO: data_ingestion: File already exists of size: ~ 4 KB]
+[2023-10-03 01:08:42,579: INFO: main: >>>>>>> stage Data Ingestion completed <<<<<<<
+
+X===============X]
+[2023-10-03 01:08:42,579: INFO: main: >>>>>>> stage Data Validation started <<<<<<<]
+[2023-10-03 01:08:42,580: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:08:42,581: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:08:42,581: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:08:42,582: INFO: common: created directory at: artifacts]
+[2023-10-03 01:08:42,582: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-03 01:08:42,586: INFO: main: >>>>>>> stage Data Validation completed <<<<<<<
+
+X===============X]
+[2023-10-03 01:08:42,586: INFO: main: >>>>>>> stage Data Transformation started <<<<<<<]
+[2023-10-03 01:08:42,587: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 01:08:42,588: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 01:08:42,588: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 01:08:42,589: INFO: common: created directory at: artifacts]
+[2023-10-03 01:08:42,589: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 01:08:42,589: INFO: data_transformation: Starting Data Transformation Process...]
+[2023-10-03 01:08:42,590: INFO: data_transformation: Handling Null Values...]
+[2023-10-03 01:08:42,590: INFO: data_transformation: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 01:08:42,591: INFO: data_transformation: Handling Outliers in Column: hsc_p]
+[2023-10-03 01:08:42,592: INFO: data_transformation: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 01:08:42,593: INFO: data_transformation: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 01:08:42,595: INFO: data_transformation: Splitting Data with Test Size: 0.25]
+[2023-10-03 01:08:42,599: INFO: data_transformation: Data has been split and saved.]
+[2023-10-03 01:08:42,599: INFO: data_transformation: Data Transformation Process Completed.]
+[2023-10-03 01:08:42,599: INFO: main: >>>>>>> stage Data Transformation completed <<<<<<<
+
+X===============X]
