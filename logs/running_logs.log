@@ -1,0 +1,108 @@
+[2023-10-02 20:40:20,350: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-02 20:40:20,353: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 20:40:20,357: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-02 20:42:57,833: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-02 20:42:57,835: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 20:42:57,837: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-02 20:42:57,839: INFO: common: created directory at: artifacts]
+[2023-10-02 20:42:57,839: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-02 20:42:58,950: INFO: 214553537: artifacts/data_ingestion/data.zip download! with following info: 
+Server: GitHub.com
+Date: Tue, 03 Oct 2023 03:42:58 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+ETag: W/"83506c9ba9d012455ad452e3f135f1b7"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.githubcopilot.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events objects-origin.githubusercontent.com *.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ wss://*.actions.githubusercontent.com github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com support.github.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+Set-Cookie: _gh_sess=DdtDNYxBMGTryebbQgBcJOlD0dBBWP6BAgqlCrc7%2Fp9YFBmGINS9vDYX2izk6pSx0SrOkkvy6dlWRWBT0UtUMyibVXfSufnmsEE5UoyvRcRdYeK0OE2%2Bq9JE40zUMtFfBLNkWoFB0snJwnGJJktUFYgonqhlttOpCGq63i8Kb5Tf5tJw3%2F9OlCuB46oumYVK5gbVK4orzdQZBue8US9FmtQ98hTOUlCbB2ltCoNCfRykdral7YlSmO4c%2FWvkkDiarlYRB3yjz9ngxo2TFJm8cg%3D%3D--MytlZ1I21TOvzcoo--xDX87JpEY5ZseKIAwRzxog%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.1870338277.1696304578; Path=/; Domain=github.com; Expires=Thu, 03 Oct 2024 03:42:58 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 03 Oct 2024 03:42:58 GMT; HttpOnly; Secure; SameSite=Lax
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+X-GitHub-Request-Id: CAB1:1CDE:35BCB:49A05:651B8DC2
+connection: close
+
+]
+[2023-10-02 20:44:42,735: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-02 20:44:42,737: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 20:44:42,739: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-02 20:44:42,741: INFO: common: created directory at: artifacts]
+[2023-10-02 20:44:42,743: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-02 20:44:43,557: INFO: 214553537: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 4471
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "8dc25a77f155161e6322ab3456a9a6a85d2da68191ed0bb9d680e1024748fc7c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 314E:2A7F:30765E:3B9277:651B8E2B
+Accept-Ranges: bytes
+Date: Tue, 03 Oct 2023 03:44:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx12420-PHX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1696304684.559053,VS0,VE66
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b908b3cd0b96f103512fcc42c5dbcc9205b40253
+Expires: Tue, 03 Oct 2023 03:49:43 GMT
+Source-Age: 0
+
+]
+[2023-10-02 20:58:15,810: INFO: main: >>>>>>> stage Data Ingestion started <<<<<<<]
+[2023-10-02 20:58:15,812: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-02 20:58:15,813: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 20:58:15,814: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-02 20:58:15,814: INFO: common: created directory at: artifacts]
+[2023-10-02 20:58:15,814: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-02 20:58:16,573: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 4471
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "8dc25a77f155161e6322ab3456a9a6a85d2da68191ed0bb9d680e1024748fc7c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 314E:2A7F:30765E:3B9277:651B8E2B
+Accept-Ranges: bytes
+Date: Tue, 03 Oct 2023 03:58:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx12432-PHX
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1696305496.480619,VS0,VE130
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b3120c6679e73aea8442a2996ceaba4e421c100d
+Expires: Tue, 03 Oct 2023 04:03:16 GMT
+Source-Age: 0
+
+]
+[2023-10-02 20:58:16,576: INFO: main: >>>>>>> stage Data Ingestion completed <<<<<<<
+
+X===============X]
+[2023-10-02 20:58:27,003: INFO: main: >>>>>>> stage Data Ingestion started <<<<<<<]
+[2023-10-02 20:58:27,005: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-02 20:58:27,005: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 20:58:27,006: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-02 20:58:27,006: INFO: common: created directory at: artifacts]
+[2023-10-02 20:58:27,006: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-02 20:58:27,006: INFO: data_ingestion: File already exists of size: ~ 4 KB]
+[2023-10-02 20:58:27,007: INFO: main: >>>>>>> stage Data Ingestion completed <<<<<<<
+
+X===============X]

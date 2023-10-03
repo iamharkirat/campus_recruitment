@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mlProject
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/iamharkirat/campus_recruitment
+Author: iamharkirat
+Author-email: hchahal1@asu.edu
+Project-URL: Bug Tracker, https://github.com/iamharkirat/campus_recruitment/issues
+
+campus recruitment project using MlFlow & Modular Programming
+
+## Workflows
+
+1. Update config.yaml
+2. Update schema.yaml
+3. Update params.yaml
+4. Update the entity
+5. Update the configuration manager in src config
+6. Update the components
+7. Update the pipeline 
+8. Update the main.py
+9. Update the app.py

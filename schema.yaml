@@ -1,0 +1,20 @@
+COLUMNS:
+  gender: object 
+  ssc_p: float64
+  ssc_b: object 
+  hsc_p: float64
+  hsc_b: object 
+  hsc_s: object 
+  degree_p: float64
+  degree_t: object 
+  workex: object 
+  etest_p: float64
+  specialisation: object 
+  mba_p: float64
+  salary: float64
+
+
+TARGET_COLUMN:
+  status: object 
+
+  

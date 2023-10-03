@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "ete_mlflow"
+REPO_NAME = "campus_recruitment"
 AUTHOR_USER_NAME = "iamharkirat"
 SRC_REPO = "mlProject"
 AUTHOR_EMAIL = "hchahal1@asu.edu"
