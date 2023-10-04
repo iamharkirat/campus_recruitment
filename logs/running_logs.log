@@ -662,3 +662,224 @@ X===============X]
 [2023-10-03 01:08:42,599: INFO: main: >>>>>>> stage Data Transformation completed <<<<<<<
 
 X===============X]
+[2023-10-03 16:25:05,196: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 16:25:05,205: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 16:25:05,207: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 16:25:05,208: INFO: common: created directory at: artifacts]
+[2023-10-03 16:26:15,414: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 16:26:15,416: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 16:26:15,420: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 16:26:15,421: INFO: common: created directory at: artifacts]
+[2023-10-03 16:26:15,422: INFO: common: created directory at: artifacts/model_trainer]
+[2023-10-03 17:02:54,317: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:02:54,321: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:02:54,323: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:02:54,325: INFO: common: created directory at: artifacts]
+[2023-10-03 17:02:54,326: INFO: common: created directory at: artifacts/model_trainer]
+[2023-10-03 17:02:55,249: INFO: 2834237003: Model saved successfully!]
+[2023-10-03 17:06:21,913: INFO: main: >>>>>>> stage Data Ingestion started <<<<<<<]
+[2023-10-03 17:06:21,915: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:06:21,916: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:06:21,917: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:06:21,918: INFO: common: created directory at: artifacts]
+[2023-10-03 17:06:21,918: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-03 17:06:23,018: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 4471
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "8dc25a77f155161e6322ab3456a9a6a85d2da68191ed0bb9d680e1024748fc7c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A042:6D39:6A80D8:826AA0:651CAC7E
+Accept-Ranges: bytes
+Date: Wed, 04 Oct 2023 00:06:23 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx12426-PHX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1696377983.869411,VS0,VE143
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 755e4976f06f35f6c94cac282551d86a11b2a723
+Expires: Wed, 04 Oct 2023 00:11:23 GMT
+Source-Age: 0
+
+]
+[2023-10-03 17:06:23,022: INFO: main: >>>>>>> stage Data Ingestion completed <<<<<<<
+
+X===============X]
+[2023-10-03 17:06:23,022: INFO: main: >>>>>>> stage Data Validation started <<<<<<<]
+[2023-10-03 17:06:23,026: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:06:23,028: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:06:23,030: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:06:23,030: INFO: common: created directory at: artifacts]
+[2023-10-03 17:06:23,031: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-03 17:06:23,042: INFO: main: >>>>>>> stage Data Validation completed <<<<<<<
+
+X===============X]
+[2023-10-03 17:06:23,042: INFO: main: >>>>>>> stage Data Transformation started <<<<<<<]
+[2023-10-03 17:06:23,046: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:06:23,047: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:06:23,051: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:06:23,051: INFO: common: created directory at: artifacts]
+[2023-10-03 17:06:23,052: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 17:06:23,052: INFO: data_transformation: Starting Data Transformation Process...]
+[2023-10-03 17:06:23,055: INFO: data_transformation: Handling Null Values...]
+[2023-10-03 17:06:23,055: INFO: data_transformation: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 17:06:23,057: INFO: data_transformation: Handling Outliers in Column: hsc_p]
+[2023-10-03 17:06:23,060: INFO: data_transformation: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 17:06:23,061: INFO: data_transformation: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 17:06:23,066: INFO: data_transformation: Splitting Data with Test Size: 0.25]
+[2023-10-03 17:06:23,073: INFO: data_transformation: Data has been split and saved.]
+[2023-10-03 17:06:23,073: INFO: data_transformation: Data Transformation Process Completed.]
+[2023-10-03 17:06:23,073: INFO: main: >>>>>>> stage Data Transformation completed <<<<<<<
+
+X===============X]
+[2023-10-03 17:06:23,073: INFO: main: >>>>>>> stage Model Trainer started <<<<<<<]
+[2023-10-03 17:06:23,075: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:06:23,076: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:06:23,077: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:06:23,078: INFO: common: created directory at: artifacts]
+[2023-10-03 17:06:23,078: INFO: common: created directory at: artifacts/model_trainer]
+[2023-10-03 17:06:23,660: INFO: model_trainer: Model saved successfully!]
+[2023-10-03 17:06:23,661: INFO: main: >>>>>>> stage Model Trainer completed <<<<<<<
+
+X===============X]
+[2023-10-03 17:17:44,571: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:17:44,574: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:17:44,576: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:17:44,577: INFO: common: created directory at: artifacts]
+[2023-10-03 17:17:44,578: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-10-03 17:17:48,431: INFO: 1140260513: Calculated metrics: RMSE=0.0, MAE=0.0, R2=1.0]
+[2023-10-03 17:17:48,432: ERROR: 1140260513: Error saving metrics to JSON: 'ModelEvaluation' object has no attribute 'save_json']
+[2023-10-03 17:18:28,509: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:18:28,512: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:18:28,514: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:18:28,515: INFO: common: created directory at: artifacts]
+[2023-10-03 17:18:28,515: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-10-03 17:18:30,315: INFO: common: json file saved at: artifacts/model_evaluation/metrics.json]
+[2023-10-03 17:20:56,522: INFO: 4255518397: Model evaluation started.]
+[2023-10-03 17:20:56,523: INFO: 4255518397: Model evaluation completed.]
+[2023-10-03 17:20:56,916: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:20:56,919: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:20:56,922: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:20:56,923: INFO: common: created directory at: artifacts]
+[2023-10-03 17:20:56,923: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-10-03 17:20:56,924: INFO: 4255518397: Starting MLflow logging...]
+[2023-10-03 17:22:55,886: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:22:55,890: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:22:55,892: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:22:55,894: INFO: common: created directory at: artifacts]
+[2023-10-03 17:22:55,895: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-10-03 17:22:55,896: INFO: 178573336: Model evaluation started.]
+[2023-10-03 17:22:55,896: INFO: 178573336: Starting MLflow logging...]
+[2023-10-03 17:23:03,390: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:23:03,393: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:23:03,395: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:23:03,395: INFO: common: created directory at: artifacts]
+[2023-10-03 17:23:03,396: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-10-03 17:23:03,396: INFO: 178573336: Model evaluation started.]
+[2023-10-03 17:23:03,397: INFO: 178573336: Starting MLflow logging...]
+[2023-10-03 17:23:08,972: INFO: 178573336: Evaluation Metrics - RMSE: 0.0, MAE: 0.0, R2 Score: 1.0, Accuracy: 1.0]
+[2023-10-03 17:23:08,973: INFO: common: json file saved at: artifacts/model_evaluation/metrics.json]
+[2023-10-03 17:23:08,974: INFO: 178573336: Metrics saved locally.]
+[2023-10-03 17:23:08,974: INFO: 178573336: Logging parameters and metrics to MLflow.]
+[2023-10-03 17:23:10,393: INFO: 178573336: Logging model to MLflow.]
+[2023-10-03 17:23:17,141: INFO: 178573336: Model registered in MLflow.]
+[2023-10-03 17:23:17,309: INFO: 178573336: Model evaluation completed.]
+[2023-10-03 17:27:07,352: INFO: main: >>>>>>> stage Data Ingestion started <<<<<<<]
+[2023-10-03 17:27:07,354: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:27:07,355: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:27:07,356: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:27:07,360: INFO: common: created directory at: artifacts]
+[2023-10-03 17:27:07,360: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-03 17:27:08,365: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 4471
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "8dc25a77f155161e6322ab3456a9a6a85d2da68191ed0bb9d680e1024748fc7c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A042:6D39:6A80D8:826AA0:651CAC7E
+Accept-Ranges: bytes
+Date: Wed, 04 Oct 2023 00:27:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-phx12432-PHX
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1696379228.253327,VS0,VE124
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0024701b6c03edc4ad43d951957827dc88d2ec65
+Expires: Wed, 04 Oct 2023 00:32:08 GMT
+Source-Age: 0
+
+]
+[2023-10-03 17:27:08,369: INFO: main: >>>>>>> stage Data Ingestion completed <<<<<<<
+
+X===============X]
+[2023-10-03 17:27:08,369: INFO: main: >>>>>>> stage Data Validation started <<<<<<<]
+[2023-10-03 17:27:08,373: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:27:08,375: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:27:08,377: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:27:08,377: INFO: common: created directory at: artifacts]
+[2023-10-03 17:27:08,377: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-03 17:27:08,391: INFO: main: >>>>>>> stage Data Validation completed <<<<<<<
+
+X===============X]
+[2023-10-03 17:27:08,391: INFO: main: >>>>>>> stage Data Transformation started <<<<<<<]
+[2023-10-03 17:27:08,394: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:27:08,395: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:27:08,397: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:27:08,397: INFO: common: created directory at: artifacts]
+[2023-10-03 17:27:08,397: INFO: common: created directory at: artifacts/data_transformation]
+[2023-10-03 17:27:08,397: INFO: data_transformation: Starting Data Transformation Process...]
+[2023-10-03 17:27:08,400: INFO: data_transformation: Handling Null Values...]
+[2023-10-03 17:27:08,401: INFO: data_transformation: Dropping Columns: sl_no, ssc_b, hsc_b]
+[2023-10-03 17:27:08,408: INFO: data_transformation: Handling Outliers in Column: hsc_p]
+[2023-10-03 17:27:08,413: INFO: data_transformation: Encoding Labels for Columns: gender, workex, specialisation, status]
+[2023-10-03 17:27:08,414: INFO: data_transformation: Dummy Encoding Columns: hsc_s, degree_t]
+[2023-10-03 17:27:08,419: INFO: data_transformation: Splitting Data with Test Size: 0.25]
+[2023-10-03 17:27:08,425: INFO: data_transformation: Data has been split and saved.]
+[2023-10-03 17:27:08,426: INFO: data_transformation: Data Transformation Process Completed.]
+[2023-10-03 17:27:08,426: INFO: main: >>>>>>> stage Data Transformation completed <<<<<<<
+
+X===============X]
+[2023-10-03 17:27:08,426: INFO: main: >>>>>>> stage Model Trainer started <<<<<<<]
+[2023-10-03 17:27:08,428: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:27:08,428: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:27:08,429: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:27:08,429: INFO: common: created directory at: artifacts]
+[2023-10-03 17:27:08,430: INFO: common: created directory at: artifacts/model_trainer]
+[2023-10-03 17:27:09,018: INFO: model_trainer: Model saved successfully!]
+[2023-10-03 17:27:09,018: INFO: main: >>>>>>> stage Model Trainer completed <<<<<<<
+
+X===============X]
+[2023-10-03 17:27:09,018: INFO: main: >>>>>>> stage Model Evaluation started <<<<<<<]
+[2023-10-03 17:27:09,020: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-03 17:27:09,020: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-03 17:27:09,021: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-03 17:27:09,021: INFO: common: created directory at: artifacts]
+[2023-10-03 17:27:09,021: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-10-03 17:27:09,021: INFO: model_evaluation: Model evaluation started.]
+[2023-10-03 17:27:09,021: INFO: model_evaluation: Starting MLflow logging...]
+[2023-10-03 17:27:09,272: INFO: model_evaluation: Evaluation Metrics - RMSE: 0.0, MAE: 0.0, R2 Score: 1.0, Accuracy: 1.0]
+[2023-10-03 17:27:09,272: INFO: common: json file saved at: artifacts/model_evaluation/metrics.json]
+[2023-10-03 17:27:09,273: INFO: model_evaluation: Metrics saved locally.]
+[2023-10-03 17:27:09,273: INFO: model_evaluation: Logging parameters and metrics to MLflow.]
+[2023-10-03 17:27:09,275: INFO: model_evaluation: Logging model to MLflow.]
+[2023-10-03 17:27:11,347: INFO: model_evaluation: Model logged to MLflow.]
+[2023-10-03 17:27:11,348: INFO: model_evaluation: Model evaluation completed.]
+[2023-10-03 17:27:11,350: INFO: main: >>>>>>> stage Model Evaluation completed <<<<<<<
+
+X===============X]
